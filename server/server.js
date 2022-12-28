@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors({ origin: `${process.env.CLIENT_URL}` }));
 const port = process.env.PORT || 5000;
 
-app.get('/', async (req, res) => {
+app.get('/', (req, res) => {
   res.send('Api is live');
 });
 

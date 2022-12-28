@@ -1,7 +1,14 @@
 import React from 'react';
+import ImageRow from './components/ImageRow';
+import UploadSection from './components/UploadSection';
 
 const App = () => {
-  return <div className='text-red-500 text-center uppercase'>App</div>;
+  return (
+    <div>
+      <UploadSection />
+      <ImageRow />
+    </div>
+  );
 };
 
 export default App;
