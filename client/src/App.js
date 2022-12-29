@@ -1,12 +1,10 @@
 import React from 'react';
-import ImageRow from './components/ImageRow';
 import UploadSection from './components/UploadSection';
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-green-50 py-2'>
       <UploadSection />
-      <ImageRow />
     </div>
   );
 };
